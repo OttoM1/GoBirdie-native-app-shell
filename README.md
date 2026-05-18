@@ -52,7 +52,8 @@ Custom RK4-based golf shot simulation with:
 - Trajectory calibration workflows
 - Regression-tested physics outputs (Vitest goldens)
 
-//link will be here
+# Link for the ballistics boilerplate demo:
+https://github.com/OttoM1/GoBirdie-ballistics-boilerplate
 
 ### Caddie systems
 
