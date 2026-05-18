@@ -50,7 +50,9 @@ Custom RK4-based golf shot simulation with:
 - Launch profile adjustments
 - Spin and environmental calculations
 - Trajectory calibration workflows
-- Regression-tested physics outputs (`golfPhysics2.ts` + Vitest goldens)
+- Regression-tested physics outputs (Vitest goldens)
+
+//link will be here
 
 ### Caddie systems
 
@@ -219,7 +221,6 @@ Provides:
 
 - Authentication (magic link OTP)
 - Profile persistence (`profiles`)
-- Drill aggregation (`drill_aggregates`, `drill_completion_log`)
 
 ### Async persistence
 
