@@ -269,15 +269,6 @@ This repository intentionally excludes:
 - Private recommendation backends
 - Deployment secrets
 
-**Never commit:**
-
-- `.env` or any file containing live keys
-- Signing keys (`.jks`, `.p12`, `.p8`, provisioning profiles)
-- `google-services.json`, `GoogleService-Info.plist`, or service account JSON
-- Production SQL dumps
-
-Client-side `EXPO_PUBLIC_*` values are embedded at build time; protect Supabase with **Row Level Security** and rotate keys if they were ever exposed.
-
 ---
 
 ## License
