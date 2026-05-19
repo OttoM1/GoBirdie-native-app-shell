@@ -6,6 +6,8 @@ Beta-grade **Expo / React Native** client for GoBirdie: golf intelligence, shot 
 
 > **Note:** The git root may be named `Metro-Bundler`; the app lives in `gobirdiex/`. Run all commands from this directory.
 
+- `open-source-core` — development branch containing the public Expo/React Native client, UI systems, and production-grade mobile architecture powering GoBirdie.
+
 ---
 
 ## Table of contents
