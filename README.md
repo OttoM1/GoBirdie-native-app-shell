@@ -4,11 +4,69 @@ https://gobirdieapp.com
 
 Beta-grade **Expo / React Native** client for GoBirdie: golf intelligence, shot physics, and caddie systems.
 
-> **Note:** The git root may be named `Metro-Bundler`; the app lives in `gobirdiex/`. Run all commands from this directory.
-
 - `open-source-core` — development branch containing the public Expo/React Native client, UI systems, and production-grade mobile architecture powering GoBirdie.
 
 ---
+
+
+## Current development tree (5.6.2026)
+
+```
+Metro-Bundler/
+└── gobirdiex/
+    ├── .vscode/
+    ├── app/                         
+    │   ├── (tabs)/
+    │   │   └── guide/
+    │   ├── MenuWindowSettings/
+    │   ├── components/
+    │   ├── constants/
+    │   ├── context/
+    │   ├── hooks/
+    │   ├── lib/
+    │   │   ├── __tests__/
+    │   │   │   └── fixtures/
+    │   │   └── dev_integrations/
+    │   ├── logic/
+    │   ├── screens/
+    │   │   ├── Caddie/
+    │   │   │   ├── caddie_components/
+    │   │   │   ├── caddie_constants/
+    │   │   │   ├── caddie_context/
+    │   │   │   ├── caddie_data/
+    │   │   │   ├── caddie_types/
+    │   │   │   ├── caddie_ui/
+    │   │   │   └── manual_caddie/
+    │   │   ├── auth_gates/
+    │   │   ├── screens_components/
+    │   │   └── tools/
+    │   │       └── caddie/
+    │   └── ui_assets/
+    ├── bg_components/                
+    ├── components/                  
+    │   └── ui/
+    ├── database/                    
+    ├── hooks/                     
+    ├── packages/                   
+    │   ├── club-profile-logic/
+    │   │   ├── Design/
+    │   │   └── src/
+    │   │       ├── anchor/
+    │   │       ├── constants/
+    │   │       ├── estimation/
+    │   │       ├── export/
+    │   │       ├── methods/
+    │   │       ├── pipeline/
+    │   │       ├── types/
+    │   │       └── utils/
+    │   └── golf-physics/
+    │       ├── lib/
+    │       └── src/
+    ├── scripts/                     
+    └── supabase/                     
+        └── migrations/
+
+```
 
 ## Table of contents
 
@@ -28,7 +86,7 @@ Beta-grade **Expo / React Native** client for GoBirdie: golf intelligence, shot 
 
 ## Overview
 
-This is the public mobile client architecture behind **GoBirdie**.
+This will be the public mobile client architecture behind **GoBirdie**.
 
 The application combines:
 
